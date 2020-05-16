@@ -5,10 +5,15 @@
         <meta charset="utf-8">
         <style>
             a{ color: red;}
+            .bio-box a {color: green;}
+            #coloring { background-color: orange;}
+            .bio-box {border: 1px solid black;}
             div{ border: 1px solid black;}}
             div a{ color: green;}
+            #exec-bio { background-color: lightgray;}
             li a{ color: blue;}
             li { border: 1px solid black;}
+            .testing {background-color: azure;}
         </style>
     </head>
     <body>
@@ -21,18 +26,19 @@
                 <a href="https://example.com/">Link</a>
             </li>
             <li>
-                <a href="https://example.com/">Link</a>
+                <a id="coloring" href="https://example.com/">Link</a>
             </li></a>
         </ul>
         <h2>I'm an h2</h2>
-        <div>
+        <div id="exec-bio" class="bio-box">
         <a href="https://example.com/">I'm a Link</a></div>
-        <div>
-        </div>
-        <div>
+        <div class="bio-box testing">
             <a href="https://example.com/">I'm a Link</a>
         </div>
-        <div>
+        <div class="bio-box testing">
+            <a href="https://example.com/">I'm a Link</a>
+        </div>
+        <div class="bio-box testing">
             <a href="https://example.com/">I'm a Link</a>
         </div>
     </body>
