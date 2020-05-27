@@ -21,8 +21,23 @@
             height: 36px;}
             .show {
                 display: block;}
+            .social-list {
+                list-style: none;
+                padding: 0;
+                text-align: right;
+            }
+            .social-list > li {
+                display: inline-block;
+            }
             /* BIO STYLES */
             .bio-wrapper { font-size: 24px;}
+            .bio-wrapper: after {
+                visibility: hidden;
+                display: block;
+                font-size: 0;
+                content: "";
+                clear: both;
+                height: 0;}
             .bio-box {border: 1px solid #000;
             box-sizing: border-box;
             font-size: 1rem;
@@ -46,15 +61,15 @@
     <body>
         <div class="full-hero hero-home">
         <h1>I'm an h1</h1>
-        <ul>
+        <ul class="social-list">
             <li>
-                <a class="social-link" href="https://example.com">Link</a>
+                <a class="social-link" href="https://example.com">Link1</a>
             </li>
             <li>
-                <a class="social-link" href="https://example.com/">Link</a>
+                <a class="social-link" href="https://example.com/">Link2</a>
             </li>
             <li>
-                <a class="social-link" href="https://example.com/">Link</a>
+                <a class="social-link" href="https://example.com/">Link3</a>
             </li></a>
         </ul>
     </div>
@@ -100,5 +115,16 @@
             <p>The Future</p>
         </div>
     </div>
+    <p>
+        Learn Enough to Be Dangerous is a leader in teh movement to teach the world <em>techincal sophistication</em>, which includes both "hard skills" like coding, command lines, and version contril, and "soft skills" like guessing keyboard shortcuts, Googling error messages, and knowing when to just reboot the darn thing.
+        </p>
+        <p>
+            We believe there are <strong>at least a billion people</strong> who can benefit from learning technical sophistication, probably more. To join our movement, <a href="https://learnenough.com/#email_list">sign up for our official email list</a> now.
+        </p>
+        <h3>Background</h3>
+        <p>
+            Learn Enough to Be Dangerous is an outgrowth of the <a href="https://www.railstutorial.org/">Ruby on Rails Tutorial</a> and the <a href="https://www.softcover.io/">Softcover publishing platform</a>.
+            This page is part of the sample site for <a href="https://learnenough.com/css-tutorial"><em>Learn Enough CSS and Layout to Be Dangerous</em></a>, which teaches the basics of <strong>C</strong>ascading <strong>S</strong>tyle <strong>S</strong>heets, the language that allows web pages to be styled. Other related tutorials can be found at <a href="https://learnenough.com/">learnenough.com</a>
+        </p>
     </body>
 </html>
