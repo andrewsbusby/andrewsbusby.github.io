@@ -25,6 +25,14 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+            .header-nav a:hover,
+            .header-nav a:active {
+                color: #ed6e2f;
+            }
+            .header-logo:hover,
+            .header-logo:active {
+                opacity: 0.5;
+            }
             /* SOCIAL STYLES */
             .social-link {background-color: rgba(150, 150, 150, 0.5);
             border-radius: 99px;
