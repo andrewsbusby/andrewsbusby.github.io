@@ -49,6 +49,9 @@
             vertical-align: middle;
             width: 2.5em;
             }
+            .social-link:hover {
+                background-color: #e33;
+            }
             .social-list {
                 list-style: none;
                 padding: 0;
@@ -94,6 +97,9 @@
             .full-hero{ 
                 background-color: #c7dbfc;
                 height: 50vh;
+            }
+            .full-hero:hover {
+                background-color: #44dd11;
             }
             .full-hero li{
                 display: inline;
