@@ -20,6 +20,7 @@
             .header {
                 background-color: #aaa;
                 height: 300px;
+                position: relative;
                 width: 100%;
             }
             .header-nav {
