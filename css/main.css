@@ -17,6 +17,11 @@
                 text-align: center;
             }
             /* HEADER STYLES */
+            .header {
+                background-color: #aaa;
+                height: 300px;
+                width: 100%;
+            }
             .header-nav {
                 float: right;
                 padding: 5.5vh 60px 0 0;
@@ -47,6 +52,10 @@
             .header-nav > li:first-child a { color: #ed6e2f;
             }
             .header-nav > li:first-child a:hover { color: #000;
+            }
+            .header-logo {
+                bottom: 50px;
+                position: absolute;
             }
             /* SOCIAL STYLES */
             .social-link {background-color: rgba(150, 150, 150, 0.5);
