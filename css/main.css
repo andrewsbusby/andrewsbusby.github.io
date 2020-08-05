@@ -55,8 +55,13 @@
             .header-nav > li:first-child a:hover { color: #000;
             }
             .header-logo {
-                bottom: 50px;
+                background-color: #000;
+                height: 110px;
+                left: 50%;
                 position: absolute;
+                top: 50%;
+                transform: translate(-50%, -50%);
+                width: 110px;
             }
             /* SOCIAL STYLES */
             .social-link {background-color: rgba(150, 150, 150, 0.5);
