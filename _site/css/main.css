@@ -21,12 +21,26 @@
                 background-color: #000;
                 color: #fff;
             }
+            .header-logo {
+                background-color: #000;
+                box-sizing: border-box;
+                display: block;
+                height: 10vh;
+                padding-top: 10px;
+                position: relative;
+                text-align: center;
+                width: 10vh;
+            }
+            .header-logo:hover,
+            .header-logo:active{
+                background-color:#ed6e2f;
+            }
+            .header-logo img {
+                width: 4.3vh;
+            }
             .header-nav {
                 float: right;
                 padding: 5.5vh 60px 0 0;
-            }
-            .header-nav > li:first-child a:hover {
-                color: #fff;
             }
             .header-nav > li {
                 display: inline-block;
@@ -43,6 +57,9 @@
                 text-decoration: none;
                 text-transform: uppercase;
             }
+            .header-nav > li:first-child a:hover {
+                color: #fff;
+            }
             .header-nav a:hover,
             .header-nav a:active {
                 color: #ed6e2f;
@@ -55,16 +72,7 @@
             }
             .header-nav > li:first-child a:hover { color: #000;
             }
-            .header-logo {
-                background-color: #000;
-                box-sizing: border-box;
-                display: block;
-                height: 10vh;
-                padding-top: 10px;
-                position: relative;
-                text-align: center;
-                width: 10vh;
-            }
+           
             /* SOCIAL STYLES */
             .social-link {background-color: rgba(150, 150, 150, 0.5);
             border-radius: 99px;
