@@ -18,14 +18,15 @@
             }
             /* HEADER STYLES */
             .header {
-                background-color: #aaa;
-                height: 300px;
-                position: relative;
-                width: 100%;
+                background-color: #000;
+                color: #fff;
             }
             .header-nav {
                 float: right;
                 padding: 5.5vh 60px 0 0;
+            }
+            .header-nav > li:first-child a:hover {
+                color: #fff;
             }
             .header-nav > li {
                 display: inline-block;
@@ -56,12 +57,13 @@
             }
             .header-logo {
                 background-color: #000;
-                height: 110px;
-                left: 50%;
-                position: absolute;
-                top: 50%;
-                transform: translate(-50%, -50%);
-                width: 110px;
+                box-sizing: border-box;
+                display: block;
+                height: 10vh;
+                padding-top: 10px;
+                position: relative;
+                text-align: center;
+                width: 10vh;
             }
             /* SOCIAL STYLES */
             .social-link {background-color: rgba(150, 150, 150, 0.5);
