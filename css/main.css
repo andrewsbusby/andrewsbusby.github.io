@@ -33,6 +33,7 @@
                 box-sizing: border-box;
                 display: block;
                 height: 10vh;
+                left: -30px;
                 padding-top: 10px;
                 position: relative;
                 text-align: center;
