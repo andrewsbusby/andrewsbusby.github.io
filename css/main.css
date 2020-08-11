@@ -110,7 +110,17 @@
            .footer-nav a {
                color: #ccc;
            }
+             /* HERO STYLES */
+            .full-hero{ 
+            background-color: #c7dbfc;
+            height: 50vh;
+            }
             /* SOCIAL STYLES */
+            .social-list {
+                list-style: none;
+                padding: 0;
+                text-align: center;
+            }
             .social-link {background-color: rgba(150, 150, 150, 0.5);
             border-radius: 99px;
             color: #fff;
@@ -165,8 +175,4 @@
             .bio-box img {
                 width: 100%;
             }
-            /* HERO STYLES */
-            .full-hero{ 
-                background-color: #c7dbfc;
-                height: 50vh;
-            }
+
