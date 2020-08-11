@@ -72,7 +72,7 @@
                 color: #ed6e2f;
             }
             .header-nav > li:first-child a:hover {
-                color: #fff;
+                color: #ed6e2f;
             }
             .header-nav a:hover,
             .header-nav a:active {
@@ -84,7 +84,7 @@
             }
             .header-nav > li:first-child a { color: #ed6e2f;
             }
-            .header-nav > li:first-child a:hover { color: #000;
+            .header-nav > li:first-child a:hover { color: #fff;
             }
            /* FOOTER STYLES */
            .footer {
@@ -105,7 +105,7 @@
            }
            .footer-nav li {
                display: inline-block;
-               margin: 2me 1em 0;
+               margin: 2em 1em 0;
            }
            .footer-nav a {
                color: #ccc;
@@ -125,14 +125,6 @@
             text-decoration: none;
             vertical-align: middle;
             width: 2.5em;
-            }
-            .social-link:hover {
-                background-color: #e33;
-            }
-            .social-list {
-                list-style: none;
-                padding: 0;
-                text-align: center;
             }
             .social-list > li {
                 display: inline-block;
@@ -154,7 +146,7 @@
             font-size: 1rem;
             float: left;
             margin: 40px 1% 0;
-            padding:0 2% 2%;
+            padding: 2%;
             width: 23%;} 
             .bio-box h3 {
             color: #fff;
@@ -164,9 +156,12 @@
             .bio-copy {
                 font-size: 1em;
             }
+            .bio-box .social-link {
+                display: block;
+                margin: 2em 0 1em;
+            }
             .bio-copy a {color: green;
             }
-            div.bio-box {border: 1px solid green;}
             .bio-box img {
                 width: 100%;
             }
@@ -174,10 +169,4 @@
             .full-hero{ 
                 background-color: #c7dbfc;
                 height: 50vh;
-            }
-            .full-hero:hover {
-                background-color: #44dd11;
-            }
-            .full-hero li{
-                display: inline;
             }
