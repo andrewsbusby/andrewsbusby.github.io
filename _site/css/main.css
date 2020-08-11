@@ -1,11 +1,11 @@
 
             /* GLOBAL STYLES */
-            body {
-                font-family: helvetica, arial, sans;
-            }
             html {
                 box-shadow: 0 0 0 30px #000 inset;
                 padding: 0 30px;
+            }
+            body {
+                font-family: helvetica, arial, sans;
             }
             h1 {
                 font-size: 7vw;
@@ -59,11 +59,17 @@
                 padding-left: 1em;
             }
             .header-nav a {
-                color: #000;
+                color: #fff;
+            }
+            .nav-links a {
                 font-size: 0.8rem;
                 font-weight: bold;
                 text-decoration: none;
                 text-transform: uppercase;
+            }
+            .nav-links a:hover,
+            .nav-links a:active {
+                color: #ed6e2f;
             }
             .header-nav > li:first-child a:hover {
                 color: #fff;
@@ -96,6 +102,13 @@
            }
            .footer h3 span {
                color: #aaa;
+           }
+           .footer-nav li {
+               display: inline-block;
+               margin: 2me 1em 0;
+           }
+           .footer-nav a {
+               color: #ccc;
            }
             /* SOCIAL STYLES */
             .social-link {background-color: rgba(150, 150, 150, 0.5);
