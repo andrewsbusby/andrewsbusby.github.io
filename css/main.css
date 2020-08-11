@@ -55,7 +55,7 @@
                 margin-left: 1em;
             }
             .header-nav > li ~ li{
-                border-left: 1px solid rgba(0, 0, 0, 0.3);
+                border-left: 1px solid rgba(255, 255, 255, 0.3);
                 padding-left: 1em;
             }
             .header-nav a {
