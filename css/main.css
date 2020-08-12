@@ -113,7 +113,7 @@
              /* HERO STYLES */
             .full-hero{ 
             background-color: #c7dbfc;
-            height: 50vh;
+            height: 40vh;
             }
             /* SOCIAL STYLES */
             .social-list {
@@ -135,10 +135,6 @@
             text-decoration: none;
             vertical-align: middle;
             width: 2.5em;
-            }
-            .social-list > li {
-                display: inline-block;
-                margin: 0 0.5em;
             }
             /* BIO STYLES */
             .bio-wrapper { font-size: 24px;
