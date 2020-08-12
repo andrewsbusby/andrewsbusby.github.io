@@ -113,7 +113,12 @@
              /* HERO STYLES */
             .full-hero{ 
             background-color: #c7dbfc;
-            height: 40vh;
+            box-sizing: border-box;
+            height: 100vh;
+            padding-top: 10vh;
+            }
+            .hero-home {
+                background-image: url(/images/shark.jpg);
             }
             /* SOCIAL STYLES */
             .social-list {
