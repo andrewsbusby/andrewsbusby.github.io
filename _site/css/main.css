@@ -120,6 +120,7 @@
             }
             .hero-home {
                 background-image: url(/images/shark.jpg);
+                background-position: center top;
             }
             /* SOCIAL STYLES */
             .social-list {
