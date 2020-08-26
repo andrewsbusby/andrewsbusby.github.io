@@ -5,7 +5,15 @@
                 padding: 0 30px;
             }
             body {
+                display: flex;
+                flex-direction: column;
                 font-family: helvetica, arial, sans;
+                min-height: 100vh;
+            }
+            .content-container{
+                flex-grow: 1;
+                padding-top: 10vh;
+                width: 100%;
             }
             h1 {
                 font-size: 7vw;
@@ -121,7 +129,7 @@
             background-color: #c7dbfc;
             background-size: cover;
             box-sizing: border-box;
-            height: 100vh;
+            height: 90vh;
             padding-top: 10vh;
             }
             .full-hero:after {
@@ -187,15 +195,17 @@
             .home-section {
                 margin: 6rem auto;
                 max-width: 980px;
-                with: 90vh;
+                width: 90vh;
             }
             .home-section h2 {
                 margin-bottom: 1.5rem;
                 text-align: center;
             }
             .home-callout {
+                align-items: center;
                 background-color: #000;
                 color: #fff;
+                display: flex;
                 padding: 7vh 0;
             }
             .callout-title {
