@@ -7,6 +7,12 @@
             body {
                 font-family: helvetica, arial, sans;
             }
+            .content-container {
+                display: flex;
+                flex: 1 1 auto;
+                padding-top: 10vh;
+                width: 100%;
+            }
             h1 {
                 font-size: 7vw;
                 margin-top: 0;
@@ -18,6 +24,7 @@
             }
             p {
                 line-height: 1.5;
+                margin: 0.75em 0;
             }
             h2 ~ p {
                 font-size: 0.8em;
@@ -116,6 +123,27 @@
            .footer-nav a {
                color: #ccc;
            }
+           /* COLUMN STYLES */
+           .col-three {
+               display: flex;
+               flex: 1; 
+           }
+           .col {
+               box-sizing: border-box;
+               padding: 2em;
+           }
+           .col-three .col ~ .col {
+               border-left: 1px solid rgba(0, 0, 0, 0.1);
+           }
+           .col-three .col-nav {
+               flex: 0 1 15em;
+           }
+           .col-three .col-content {
+               flex: 1;
+           }
+           .col-three .col-aside {
+               flex: 0 1 20em;
+           }
              /* HERO STYLES */
             .full-hero{ 
             background-color: #c7dbfc;
@@ -187,24 +215,33 @@
             .home-section {
                 margin: 6rem auto;
                 max-width: 980px;
-                with: 90vh;
+                width: 90vh;
             }
             .home-section h2 {
                 margin-bottom: 1.5rem;
                 text-align: center;
             }
             .home-callout {
+                align-items: center;
                 background-color: #000;
                 color: #fff;
+                display: flex;
                 padding: 7vh 0;
             }
+            .home-callout h3 {
+                color: inherit;
+                margin-top: 1em;
+            }
             .callout-title {
+                flex: 1;
                 font-size: 5.75vw;
                 text-align: right;
                 text-transform: uppercase;
             }
             .callout-copy {
+                flex: 0 0 45em;
                 font-size: 0.8rem;
+                padding: 0 3vw;
             }
             /* BIO STYLES */
             .bio-wrapper { font-size: 24px;
