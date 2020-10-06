@@ -599,7 +599,7 @@
       .mobile-menu-check:checked ~ .show-mobile-menu:after {
           background-color: #000;
           color: #ed6e2f;
-          content: "CLOSE";
+          content: "X";
           left: 0;
           position: absolute;
           text-align: center;
